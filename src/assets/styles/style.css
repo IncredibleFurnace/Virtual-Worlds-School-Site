@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.page-line {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    overflow: hidden;
+}
+
+.page-line__wrap-a {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-line__a {
+    margin: 0px 10px 0px 10px;
+    font-size: 16px;
+    height: 0;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.page-line__a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+.page-line__wrap-social-media {
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.icon_social_media {
+    height: 25px;
+    width: 25px;
+    margin: 0 3px 0 3px;
+}
+
+#institute-description-p {
+    margin: 0 5px 0 0; 
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    text-align: right;
+}
+
+#institute-logo-img {
+    height: 105px;
+}
+
+.page-line__wrap-logo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.text_uppercase {
+    text-transform: uppercase;
+}
+
+.font_bold {
+    font-weight: bold;
+}
+
+.font_blue {
+    color: #045ea8;
+}
+
+#virtual-worlds-title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 40px;
+}
+
+.search-bar__form , .search-bar__lang-icons {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.search-bar__lang-icons {
+    display: inline-flex;
+    margin: 10px 0 0 0;
+    float: right;
+}
+
+#lang-icons-divide-line {
+    font-size: 25px;
+    margin: 0 2px 0 2px;
+    color: lightgrey;
+}
+
+.lang_icon {
+    height: 35px;
+}
+
+.input_text {
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    border: solid lightgrey 2px;
+}
+.input_text:focus {
+    outline: none;
+}
+
+.input_submit {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: none;
+    background-color: #045ea8;
+    margin: 0 0 0 5px;
+}
+
+.input_submit:focus {
+    outline: none;
+}
+
+.input_submit:hover {
+    cursor: pointer;
+}
+
+.site-menu {
+    display: flex;
+    background-color: #045ea8;
+    height: 50px;
+    min-width: 1170px;
+    margin: 20px auto 0 auto;
+    justify-content: center;
+}
+
+.site-menu__wrap {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 0 auto;
+}
+
+.site-menu__menu-option {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: bold;
+    margin: auto;
+}
+
+.site-menu__menu-option:visited {
+    text-decoration: none;
+}
+
+.page__portal-desc {
+    display: flex;
+    flex-direction: column;
+}
+
+#ncfu_logo {
+    height: 200px;
+    width: 200px;
+}
+
+.table-courses {
+    background-color: #045ea8;
+    border-spacing: 20px 20px;
+    border-collapse: separate;
+}
+
+.course-link {
+    text-decoration: none;
+    color: black;
+}
+
+.course-link:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.table-courses td {
+    background-color: white;
+    border: none;
+    height: 180px;
+    width: 220px;
+}
+
+.blue_line {
+    height: 25px;
+    background-color:  #045ea8;
+}
+
+.table-calendar {
+    padding: 20px 0 20px 0;
+    width: 200px;
+    border-spacing: 0;
+}
+
+.table-calendar td {
+    padding: 4px 0 4px 0;
+}
+
+.calendar_date {
+    background-color: #045ea8;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 2px 10px 2px;
+}
+
+.calendar_info {
+    font-size: 12px;
+    color: #045ea8;
+    text-align: center;
+}
+
+.button-all-events {
+    background: transparent;
+    border-style: none;
+    color: grey;
+    text-decoration: underline;
+}
+
+.page-line__help-frame {
+    background-color: #045ea8;
+    padding: 35px 55px;
+}
+
+.page-line__inner-frame {
+    text-align: center;
+    height: 300px;
+    width: 450px;
+    background-color: white;
+    padding-top: 20px;
+}
+
+.page-line_inner-frame *> {
+    width: 380px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.p_light {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page-line__name-input-wrapper {
+    padding-top: 20px;
+}
+
+.page-line__phone-email-input-wrapper {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+input[name="first_name"] {
+    padding-right: 0;
+    padding-top: 5px;
+    width: 400px;
+    font-size: 16px;
+    outline: none;
+    border-top: none;
+    border-bottom: 1px solid grey;
+    border-left: none;
+    border-right: none;
+}
+
+input[type="tel"] {
+    width: 140px;
+    padding-right: 0;
+    font-size: 16px;
+    outline: none;
+    border-top: none;
+    border-bottom: 1px solid grey;
+    border-left: none;
+    border-right: none;
+}
+
+input[type="email"] {
+    width: 235px;
+    padding-right: 0;
+    font-size: 16px;
+    outline: none;
+    border-top: none;
+    border-bottom: 1px solid grey;
+    border-left: none;
+    border-right: none;
+}
+
+input[type="submit"] {
+    background-color:  #045ea8;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+.page-line__submit-form-wrapper {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 400px;
+}
+
+.page-line__checkbox-wrapper {
+    width: 250px;
+    text-align: left;
+}
+
+.page-line__p-wrapper {
+    width: 400px;
+    margin: auto;
+}
+
+label {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
